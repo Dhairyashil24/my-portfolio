@@ -1,0 +1,154 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: 'Poppins', sans-serif;
+}
+
+body{
+background:#050816;
+color:white;
+}
+
+canvas{
+position:fixed;
+top:0;
+left:0;
+z-index:-1;
+}
+
+/* NAVBAR */
+
+nav{
+display:flex;
+justify-content:space-between;
+padding:20px 50px;
+background:#00000060;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:25px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+}
+
+/* HERO */
+
+.hero{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+
+.profile{
+width:150px;
+border-radius:50%;
+margin-bottom:20px;
+}
+
+.hero h1{
+font-size:50px;
+color:#00eaff;
+}
+
+.btn{
+display:inline-block;
+margin-top:20px;
+padding:10px 25px;
+background:#00eaff;
+color:black;
+text-decoration:none;
+}
+
+/* SECTIONS */
+
+section{
+padding:80px 10%;
+text-align:center;
+}
+
+/* SKILLS */
+
+.skills-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+gap:20px;
+margin-top:30px;
+}
+
+.skill{
+background:#111a33;
+padding:20px;
+border-radius:10px;
+}
+
+/* PROJECTS */
+
+.project-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+margin-top:30px;
+}
+
+.project{
+background:#111a33;
+padding:25px;
+border-radius:10px;
+}
+
+/* CERTIFICATES */
+
+.certificate-grid{
+display:flex;
+justify-content:center;
+gap:40px;
+margin-top:30px;
+flex-wrap:wrap;
+}
+
+.certificate{
+text-decoration:none;
+color:white;
+}
+
+.certificate img{
+width:250px;
+border-radius:10px;
+}
+
+/* CONTACT */
+
+form{
+display:flex;
+flex-direction:column;
+gap:15px;
+max-width:500px;
+margin:auto;
+}
+
+input,textarea{
+padding:10px;
+border:none;
+border-radius:5px;
+}
+
+button{
+padding:10px;
+background:#00eaff;
+border:none;
+cursor:pointer;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#000;
+}
